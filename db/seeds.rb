@@ -1,7 +1,26 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Airline.create([
+  {
+    name: "Philippine Airlines",
+    image_url: "https://open-flights.s3.amazonaws.com/Philippine-Airlines.png"
+  },
+  {
+    name: "Cebu Pacific",
+    image_url: "https://open-flights.s3.amazonaws.com/Cebu-Pacific.png"
+  },
+  {
+    name: "Delta Airways",
+    image_url: "https://open-flights.s3.amazonaws.com/Delta.png"
+  },
+  {
+    name: "Air Asia",
+    image_url: "https://open-flights.s3.amazonaws.com/Air-Asia.png"
+  },
+  {
+    name: "SkyJet Airlines",
+    image_url: "https://open-flights.s3.amazonaws.com/SkyJet-Airlines.png"
+  },
+  {
+    name: "Cebgo",
+    image_url: "https://open-flights.s3.amazonaws.com/Cebgo.png"
+  }
+])
