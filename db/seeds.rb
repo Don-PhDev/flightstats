@@ -20,7 +20,7 @@ Airline.create([
     image_url: "https://open-flights.s3.amazonaws.com/SkyJet-Airlines.png"
   },
   {
-    name: "Cebgo",
+    name: "Cebgo Air",
     image_url: "https://open-flights.s3.amazonaws.com/Cebgo.png"
   }
 ])
